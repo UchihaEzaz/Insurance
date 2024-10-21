@@ -43,6 +43,9 @@ body{
     justify-content: center;
     gap: 30px;
 }
+.menu{
+    display: none;
+}
 .button-9 i{
     margin-left: 10px;
 
@@ -195,8 +198,9 @@ body{
     min-height: 20vh;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .subscribe{
     margin-top: 10px;

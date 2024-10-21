@@ -1,0 +1,114 @@
+@media (max-width:576px) {
+    .main{
+        overflow: hidden;
+    }
+    .page1{
+        height: 180vh;
+        background-image: url(./picture/back2.png);
+        background-size: 200vh;
+    }
+    .nav-con{
+        display: none;
+    }
+    .nav-login{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menu i{
+        margin-left: 15px;
+    }
+    .hero1 h1{
+        font-size: 30px;
+    }
+    .hero2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hero2-con1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .Quote{
+        margin-bottom: 10px;
+    }
+    .placemind{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .setlife{
+        border: 1px solid black;
+    }
+    .Industry h1{
+        font-size: 40px;
+    }
+    .feedback{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .company{
+        gap: 15px;
+    }
+    .news{
+        text-align: center;
+    }
+    .subscribe{
+        flex-direction: column;
+    }
+    .submit{
+        height: 40px;
+        width: 20%;
+    }
+    .email input{
+        height: 40px;
+        width: 80%;
+    }
+    .plan{
+        flex-direction: column;
+        align-items: start;
+    }
+    .free{
+        width: 100%;
+    }
+    .brans{
+        flex-direction: column;
+    }
+    .world{
+        width: 100%;
+    }
+    .map img{
+        width: 90vw;
+    }
+    .page7{
+        background-color: #252B42;
+        height: 170vh;
+        padding: 0;
+    }
+    .form{
+        top:0vh;
+        flex-direction: column;
+    }
+    .form-right img{
+        height: 50vh;
+        width: 70vw;
+    }
+    .form-left{
+        width: 100%;
+    }
+    .agency{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .footer{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 15vw;
+    }
+    .footer-end{
+        flex-direction: column;
+        gap:10px;
+        padding: 3vw 1vw;
+    }
+}
